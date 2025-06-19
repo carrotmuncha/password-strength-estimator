@@ -19,7 +19,9 @@ A machine learning–powered password strength evaluation tool that analyzes pas
 
 ## 📸 Demo
 
-![streamlit-demo](docs/demo_screenshot.png)
+> Add your screenshot here:
+>
+> ![streamlit-demo](docs/demo_screenshot.png)
 
 ---
 
@@ -52,12 +54,9 @@ python -m src.train_model
 
 # Predict via CLI
 python -m src.predict 'MyPassword123!'
-
 🌐 Run Web App
-# Web App
 streamlit run app.py
-
-Then open http://localhost:8501
+Then open http://localhost:8501 in your browser.
 
 📂 Project Structure
 .
@@ -73,12 +72,18 @@ Then open http://localhost:8501
     ├── extract_features.py
     ├── entropy_engine.py
     └── common_bases.py
-
 📄 License
 MIT License — feel free to use and adapt this project.
 
 🙏 Credits
-    - RockYou dataset
-    - SecLists
-    - Streamlit
-    - Scikit-learn, NumPy, Pandas, re
+- RockYou dataset
+
+- SecLists by Daniel Miessler
+
+- Streamlit
+
+- Scikit-learn
+
+- NumPy
+
+- Pandas
