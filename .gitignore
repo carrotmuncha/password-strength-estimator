@@ -1,0 +1,38 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Jupyter / Streamlit
+.ipynb_checkpoints/
+.streamlit/config.toml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+
+# Model artifacts and datasets (optional)
+models/
+data/
+
+# If you want to keep model or data folders but not the contents
+# Uncomment these:
+# models/*
+# !models/.gitkeep
+# data/*
+# !data/.gitkeep
