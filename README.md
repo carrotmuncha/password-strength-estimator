@@ -53,6 +53,7 @@ Then open http://localhost:8501 in your browser.
 ---
 
 ## 📂 Project Structure
+```bash
 .
 ├── app.py                  # Streamlit interface
 ├── requirements.txt
@@ -66,6 +67,7 @@ Then open http://localhost:8501 in your browser.
     ├── extract_features.py
     ├── entropy_engine.py
     └── common_bases.py
+```
 ---
 
 ## 📄 License
