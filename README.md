@@ -17,14 +17,6 @@ A machine learning–powered password strength evaluation tool that analyzes pas
 
 ---
 
-## 📸 Demo
-
-> Add your screenshot here:
->
-> ![streamlit-demo](docs/demo_screenshot.png)
-
----
-
 ## 🧠 How It Works
 
 1. **Feature Extraction**: Passwords are transformed into a rich set of features (length, variation, repetition, entropy, etc.)
@@ -57,8 +49,10 @@ python -m src.predict 'MyPassword123!'
 🌐 Run Web App
 streamlit run app.py
 Then open http://localhost:8501 in your browser.
+```
+---
 
-📂 Project Structure
+## 📂 Project Structure
 .
 ├── app.py                  # Streamlit interface
 ├── requirements.txt
@@ -72,10 +66,14 @@ Then open http://localhost:8501 in your browser.
     ├── extract_features.py
     ├── entropy_engine.py
     └── common_bases.py
-📄 License
+---
+
+## 📄 License
 MIT License — feel free to use and adapt this project.
 
-🙏 Credits
+---
+
+## 🙏 Credits
 - RockYou dataset
 
 - SecLists by Daniel Miessler
@@ -85,5 +83,5 @@ MIT License — feel free to use and adapt this project.
 - Scikit-learn
 
 - NumPy
-
+s
 - Pandas
